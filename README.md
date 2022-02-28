@@ -30,14 +30,13 @@ $ yarn start:dev // localhost 싫행
 ```
 <br>
 
-## 😎 팀원
+## 📝 스택
 
-- [김지영(팀장)](https://github.com/Jeong-jeong)
-- [고병표](https://github.com/kokoball)
-- [유제호](https://github.com/ludacirs)
-- [홍수연](https://github.com/suyeon-hong)
+<br/>
 
-<br>
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> <img alt="SCSS" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/></a>
+
+<br/>
 
 ## 🔥 프로젝트 과정 소개
 | [코딩 컨벤션 규칙](https://sleepy-oxygen-343.notion.site/9c06caa291f44d129f3b707fd4627aa0) | [깃허브 작성 규칙](https://sleepy-oxygen-343.notion.site/9c06caa291f44d129f3b707fd4627aa0) |
@@ -48,38 +47,29 @@ $ yarn start:dev // localhost 싫행
 
 <br>
 
-### 📝 기능 목록 명세
-- base, domain 컴포넌트 각자 작업 진행
-- 이후부터 팀원이 모두 모여 실시간 페어프로그래밍 진행
-#### ✔ 김지영
-- 프로젝트 기초 세팅
-- Heroku 배포
-- `Dropdown`, `Dropdowns` 컴포넌트 구현
+## ✨ 구현 사항
 
-#### ✔ 고병표
- - `Card` 컴포넌트 구현
-    - hover시 보더 스타일 적용
-    - status 가 '상담중'일시 상단 버튼표기 
+- TypeScript, json-server 사용
 
-#### ✔ 유제호
-- `Header`, 반응형 구현
-- 체크리스트 상태값에 따라 카드 필터링 로직 구현
+-   [x] 견적 요청 카드
+    -   [x] 프로젝트 명
+    -   [x] 요청한 고객사
+    -   [x] 고객의 희망 납기일
+    -   [x] 요청한 도면 개수
+    -   [x] 요청한 제품 총 수량
+    -   [x] 가공 방식: 도면 별로 밀링, 선반 중 한 가지 방식 선택
+    -   [x] 재료: 도면 별로 한 가지 재료 선택
+    -   [x] 카드 전체 영역에 마우스 hover시 보더 스타일
+-   [x] 필터링 조합
+    -   [x] 가공 방식, 재료 내에서 여러 개 선택 시 옵션을 **포함하고 있으면**  포함된 카드 모두 노출
+    -   [x] 가공 방식 + 재료가 여러 개 선택 시 가공방식과 재료 **옵션을 포함하고 있으면** 노출
+-   [x] 토글
+    -   [x] 활성화 시 상담 중 중 뱃지가 달린 카드만 노출
+-   [x] 빈 화면일 때 '조건에 맞는 견적 요청이 없습니다.' 문구 출력
 
-#### ✔ 홍수연
-- `Buttons`, `Toggle` 컴포넌트 구현
-- 모바일 UI 적용
-
-<br>
-<br>
-
-### 💿 필터링 조합
-
-#### 가공방식, 재료 내에서 여러 개 선택 시
-옵션을 **포함하고 있으면** 노출
-
-#### 가공방식 + 재료가 여러 개 선택 시
-가공방식과 재료 **옵션을 포함하고 있으면** 노출
-
+-   [x] 반응형 구현
+    -   [x] Mobile 에서 햄버거 메뉴를 이용하여 메뉴 창 좌측에서 생성
+    -   [x] 백그라운드 영역 탭하면 메뉴 close
 
 <br>
 
