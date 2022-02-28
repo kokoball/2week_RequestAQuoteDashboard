@@ -50,6 +50,7 @@ $ yarn start:dev // localhost 싫행
 ## ✨ 구현 사항
 
 - TypeScript, json-server 사용
+- server, base, domain, hooks, models, pages, styles, 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
 
 -   [x] 견적 요청 카드
     -   [x] 프로젝트 명
